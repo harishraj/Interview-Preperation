@@ -31,55 +31,55 @@ Space: O(p)
 ### Code
 ```java
 public class Solution {
- private Map<Integer, Integer> rootMap = new HashMap<>();
- private static final int[][] DIRS = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
- public List<Integer> numIslands2(int n, int m, Point[] operators) {
-  List<Integer> result = new ArrayList<>();
-  if (operators == null || n <= 0 || m <= 0) {
-   return result;
-  }
-  boolean[][] islands = new boolean[n][m];
-  int count = 0;
-  for (Point p: operators) {
-   if (!islands[p.x][p.y]) {
-    islands[p.x][p.y] = true;
-    count++;
-    int id = getId(p.x, p.y, m);
-    rootMap.put(id, id);
-    for (int i = 0; i < 4; ++i) {
-     int newX = p.x + DIRS[i][0];
-     int newY = p.y + DIRS[i][1];
-     if (newX >= 0 && newX < n && newY >= 0 && newY < m && islands[newX][newY]) {
-      int newId = getId(newX, newY, m);
-      int root = findRoot(id);
-      int newRoot = findRoot(newId);
-      if (root != newRoot) {
-       --count;
-       union(root, newRoot);
-      }
-     }
+  private Map<Integer, Integer> rootMap = new HashMap<>();
+  private static final int[][] DIRS = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+  public List<Integer> numIslands2(int n, int m, Point[] operators) {
+    List<Integer> result = new ArrayList<>();
+    if (operators == null || n <= 0 || m <= 0) {
+      return result;
     }
-   }
-   result.add(count);
+    boolean[][] islands = new boolean[n][m];
+    int count = 0;
+    for (Point p: operators) {
+      if (!islands[p.x][p.y]) {
+        islands[p.x][p.y] = true;
+        count++;
+        int id = getId(p.x, p.y, m);
+        rootMap.put(id, id);
+        for (int i = 0; i < 4; ++i) {
+          int newX = p.x + DIRS[i][0];
+          int newY = p.y + DIRS[i][1];
+          if (newX >= 0 && newX < n && newY >= 0 && newY < m && islands[newX][newY]) {
+            int newId = getId(newX, newY, m);
+            int root = findRoot(id);
+            int newRoot = findRoot(newId);
+            if (root != newRoot) {
+              --count;
+              union(root, newRoot);
+            }
+          }
+        }
+      }
+      result.add(count);
+    }
+    return result;
   }
-  return result;
- }
 
- private int getId(int x, int y, int m) {
-  return x * m + y;
- }
-
- private int findRoot(int id) {
-  int root = rootMap.get(id);
-  while (root != rootMap.get(root)) {
-   root = rootMap.get(root);
+  private int getId(int x, int y, int m) {
+    return x * m + y;
   }
-  return root;
- }
 
- private void union(int root1, int root2) {
-  rootMap.put(root1, root2);
- }
+  private int findRoot(int id) {
+    int root = rootMap.get(id);
+    while (root != rootMap.get(root)) {
+      root = rootMap.get(root);
+    }
+    return root;
+  }
+
+  private void union(int root1, int root2) {
+    rootMap.put(root1, root2);
+  }
 }
 ```
 
