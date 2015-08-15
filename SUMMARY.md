@@ -12,3 +12,4 @@
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
     * [Min Stack](part_ii_leetcode_lintcode/stack/min_stack.md)
     * [Implement Queue by Two Stacks](part_ii_leetcode_lintcode/stack/implement_queue_by_two_stacks.md)
+    * [Largest Rectangle in Histogram](part_ii_leetcode_lintcode/stack/largest_rectangle_in_histogram.md)
