@@ -1,7 +1,5 @@
 # Find the Weak Connected Compoenent in the Directed Graph
 ## Source
-[lintcode/Find the Weak Connected Component in the Directed Graph](http://www.lintcode.com/en/problem/find-the-weak-connected-component-in-the-directed-graph/)
-
 > Find the number Weak Connected Component in the directed graph. Each node in the graph contains a label and a list of its neighbors. (a connected set of a directed graph is a subgraph in which any two vertices are connected by direct edge path.)
 >
 > Example

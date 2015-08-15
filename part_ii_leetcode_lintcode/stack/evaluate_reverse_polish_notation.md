@@ -1,8 +1,4 @@
 # Evaluate Reverse Polish Notation
-## Source
-1. [leetcode/Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
-2. [lintcode/Evaluate Reverse Polish Notation](http://www.lintcode.com/en/problem/evaluate-reverse-polish-notation/)
-
 > Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 >
 > Valid operators are +, -, *, /. Each operand may be an integer or another expression.
