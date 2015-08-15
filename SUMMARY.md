@@ -2,6 +2,7 @@
 
 * [Interview Preparation](README.md)
 * [Part I - Basics](part_i_basics/README.md)
+    * [Java Volatile Keyword](part_i_basics/java/java_volatile_keyword.md)
 * [Part II - Leetcode/Lintcode](part_ii_leetcode_lintcode/README.md)
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
     * [Find the Weak Connected Component in the Directed Graph](part_ii_leetcode_lintcode/union_find/find_the_weak_connected_component_in_the_directed_graph.md)
@@ -18,3 +19,5 @@
     * [Implement Trie](part_ii_leetcode_lintcode/class_design/implement_trie.md)
     * [Implement Queue by Two Stacks](part_ii_leetcode_lintcode/class_design/implement_queue_by_two_stacks.md)
     * [Min Stack](part_ii_leetcode_lintcode/class_design/min_stack.md)
+* [Design Pattern]()
+    * [Singleton](part_ii_leetcode_lintcode/design_pattern/singleton.md)
