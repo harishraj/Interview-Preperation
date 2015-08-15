@@ -9,3 +9,4 @@
 * [Stack]()
     * [Evaluate Reverse Polish Notation](part_ii_leetcode_lintcode/stack/evaluate_reverse_polish_notation.md)
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
+    * [Min Stack](part_ii_leetcode_lintcode/stack/min_stack.md)
