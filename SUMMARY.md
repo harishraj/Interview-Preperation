@@ -6,3 +6,4 @@
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
     * [Find the Weak Connected Component in the Directed Graph](part_ii_leetcode_lintcode/union_find/find_the_weak_connected_component_in_the_directed_graph.md)
     * [Number of Islands II](part_ii_leetcode_lintcode/union_find/number_of_islands_ii.md)
+    * [Evaluate Reverse Polish Notation](part_ii_leetcode_lintcode/stack/evaluate_reverse_polish_notation.md)
