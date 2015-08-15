@@ -14,3 +14,5 @@
     * [Implement Queue by Two Stacks](part_ii_leetcode_lintcode/stack/implement_queue_by_two_stacks.md)
     * [Largest Rectangle in Histogram](part_ii_leetcode_lintcode/stack/largest_rectangle_in_histogram.md)
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
+* [Class Design]()
+    * [Implement Trie](part_ii_leetcode_lintcode/stack/implement_trie.md)
