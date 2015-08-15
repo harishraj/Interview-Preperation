@@ -12,6 +12,8 @@
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
     * [Largest Rectangle in Histogram](part_ii_leetcode_lintcode/stack/largest_rectangle_in_histogram.md)
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
+* [Heap]()
+    * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
 * [Class Design]()
     * [Implement Trie](part_ii_leetcode_lintcode/class_design/implement_trie.md)
     * [Implement Queue by Two Stacks](part_ii_leetcode_lintcode/class_design/implement_queue_by_two_stacks.md)
