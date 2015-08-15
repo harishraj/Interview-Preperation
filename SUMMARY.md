@@ -8,3 +8,4 @@
     * [Number of Islands II](part_ii_leetcode_lintcode/union_find/number_of_islands_ii.md)
 * [Stack]()
     * [Evaluate Reverse Polish Notation](part_ii_leetcode_lintcode/stack/evaluate_reverse_polish_notation.md)
+    * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)

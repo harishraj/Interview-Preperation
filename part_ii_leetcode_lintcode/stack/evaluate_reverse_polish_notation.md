@@ -21,6 +21,7 @@ Use a stack.
 * If the current string is an operator, we pop out two numbers from the top of the stack, and do the operation on these two numbers. And then push the result back into the stack.
 
 ### Code
+#### Java
 ```java
 public class Solution {
   public int evalRPN(String[] tokens) {

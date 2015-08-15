@@ -1,4 +1,4 @@
-Title: Number of Islands II
+# Number of Islands II
 ## Source
 1. [Number of Islands II](http://www.lintcode.com/en/problem/number-of-islands-ii/)
 
