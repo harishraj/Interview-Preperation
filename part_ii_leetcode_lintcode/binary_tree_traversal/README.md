@@ -7,7 +7,7 @@ In order to do this, every time we visit a node, we push it into a stack. When w
 Since we have to visit the right child now, we need to pop a node from the stack, which is the least recently visited node. If the node has no right child, then we keep poping elements from the stack. The reason why we can do this is that all the elements in the stack have been visited, and their left childs have also been visited. 
 
 ## Code
-#### Version 1: Best for preorder
+### Version 1: Best for preorder
 ```java
 public class Solution {
   public List<Integer> preorderTraversal(TreeNode root) {
@@ -101,6 +101,88 @@ public class Solution {
       cur = stack.pop();
       result.add(cur.val);
       cur = cur.right;
+    }
+
+    return result;
+  }
+}
+```
+
+# Postorder Traversal
+## Analysis
+Initlially, we push the root into the stack. Then every time we peek the top element in the stack. 
+
+There are three cases that we should visit the top element in the stack:
+
+* no left child & no right child
+* no right child & has visited left child
+* has right child & has visited right child
+
+We have already visited all the node's left and right child, so we cannot push its left and right child into the stack again. Otherwise, we will enter an infinite loop. So we continue to get next top element in the stack.
+
+When the node cannot statisfy any one of the above three cases, we first push its *RIGHT* child into the stack, then push its left child into the stack. 
+
+## Code
+### Version 1
+```java
+public class Solution {
+  public List<Integer> postorderTraversal(TreeNode root) {
+    List<Integer> result = new ArrayList<>();
+    if (root == null) {
+      return result;
+    }
+    Stack<TreeNode> stack = new Stack<>();
+    TreeNode prev = null;
+    while (root != null || !stack.isEmpty()) {
+      while (root != null) {
+        stack.push(root);
+        if (root.right != null) {
+          stack.push(root.right);
+        }
+        root = root.left;
+      }
+      root = stack.pop();
+      if ((root.left == null && root.right == null)
+          || (prev != null && (prev == root.left || prev == root.right))) {
+        result.add(root.val);
+        prev = root;
+        root = null;
+      }
+    }
+    return result;
+  }
+}
+```
+
+### Version 2
+```java
+public class Solution {
+  public List<Integer> postorderTraversal(TreeNode root) {
+    List<Integer> result = new ArrayList<>();
+    Stack<TreeNode> stack = new Stack<>();
+
+    if (root == null) {
+      return result;
+    }
+
+    stack.push(root);
+    TreeNode prev = null;
+    while (!stack.isEmpty()) {
+      TreeNode cur = stack.peek();
+      if ((cur.left == null && cur.right == null)
+          || (cur.right == null && prev == cur.left) 
+          || (cur.right != null && prev == cur.right)) {
+        result.add(cur.val);
+        prev = cur;
+        stack.pop();
+      } else {
+        if (cur.right != null) {
+          stack.push(cur.right);
+        }
+        if (cur.left != null) {
+          stack.push(cur.left);
+        }
+      } 
     }
 
     return result;
