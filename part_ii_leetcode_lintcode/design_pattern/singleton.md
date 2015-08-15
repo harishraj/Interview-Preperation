@@ -20,9 +20,9 @@ class Singleton {
 ## Lazy Approach
 The instance is only initilizaed when it is first used. This can help to save resource usage if initializing the Singleton class is very expensive. 
 
-Use **volatile** keyword to ensure that all threads can see the most recently written value. Refer to [Java Volatile Keyword](part_i_basics/java/java_volatile_keyword.md) for more information.
+Use **volatile** keyword to ensure that all threads can see the most recently written value. Refer to [Java Volatile Keyword](../../part_i_basics/java/java_volatile_keyword.md) for more information.
 
-##k Code
+### Code
 ```java
 class Singleton {
   private volatile static Singleton instance;
