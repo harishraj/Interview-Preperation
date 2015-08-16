@@ -7,6 +7,7 @@
 * [Binary Tree Traversal](part_ii_leetcode_lintcode/binary_tree_traversal/README.md)
 * [Divide and Conquer]()
     * [Print Numbers by Recursion](part_ii_leetcode_lintcode/divide_and_conquer/print_numbers_by_recursion.md)
+    * [Coins In a Line](part_ii_leetcode_lintcode/divide_and_conquer/coins_in_a_line.md)
 * [Stack]()
     * [Evaluate Reverse Polish Notation](part_ii_leetcode_lintcode/stack/evaluate_reverse_polish_notation.md)
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
