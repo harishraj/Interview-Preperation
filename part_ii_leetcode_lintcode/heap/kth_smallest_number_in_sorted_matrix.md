@@ -17,6 +17,8 @@
 ### Analysis
 We can push the first elements of each row into a heap, and then every time we poll the smallest number and put its successor to the heap again until we find the kth smallest number.
 
+The idea is actually the same as merge k sorted lists using heap. 
+
 ### Complexity
 Time: O(klg(min(m, n))), where m is the number of rows and n is the number of cols.
 
