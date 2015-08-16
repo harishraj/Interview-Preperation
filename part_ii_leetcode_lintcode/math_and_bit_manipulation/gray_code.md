@@ -22,6 +22,7 @@
 
 ### Analysis
 We can construct gray code from i = 1 to i = n. Each time, we use (1 << i - 1) to bit-or the exsiting numbers from the last one to the first one. Supposed n = 3. 
+
 1. Initially, {0}
 2. bit = 1 << 0, {0, 1}
 3. bit = 1 << 1, {00, 01, 11, 10}
