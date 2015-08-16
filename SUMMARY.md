@@ -13,6 +13,8 @@
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
     * [Largest Rectangle in Histogram](part_ii_leetcode_lintcode/stack/largest_rectangle_in_histogram.md)
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
+* [Seraching]()
+    * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
