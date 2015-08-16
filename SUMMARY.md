@@ -14,6 +14,7 @@
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
+    * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
     * [Find the Weak Connected Component in the Directed Graph](part_ii_leetcode_lintcode/union_find/find_the_weak_connected_component_in_the_directed_graph.md)
     * [Number of Islands II](part_ii_leetcode_lintcode/union_find/number_of_islands_ii.md)
