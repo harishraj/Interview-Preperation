@@ -2,6 +2,9 @@
 
 * [Interview Preparation](README.md)
 * [Part I - Basics](part_i_basics/README.md)
+* [Sorting]()
+    * [QuickSort](part_i_basics/sort/quick_sort.md)
+* [Java]()
     * [Java Volatile Keyword](part_i_basics/java/java_volatile_keyword.md)
 * [Part II - Leetcode/Lintcode](part_ii_leetcode_lintcode/README.md)
 * [Binary Tree Traversal](part_ii_leetcode_lintcode/binary_tree_traversal/README.md)
