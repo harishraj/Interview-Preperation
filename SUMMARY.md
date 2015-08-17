@@ -35,6 +35,7 @@
     * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
 * [Sorting]()
     * [Kth Largest Element](part_ii_leetcode_lintcode/sort/kth_largest_element.md)
+    * [Merge Intervals](part_ii_leetcode_lintcode/sort/merge_intervals.md)
 * [Math & Bit Manipulation]()
     * [Gray Code](part_ii_leetcode_lintcode/math_and_bit_manipulation/gray_code.md)
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
