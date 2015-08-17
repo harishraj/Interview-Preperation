@@ -20,6 +20,7 @@
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
 * [Dynamic Programming]()
     * [Longest Increasing Continuous subsequence](part_ii_leetcode_lintcode/dp/longest_increasing_continuous_subsequence.md)
+    * [Maximum Subarray](part_ii_leetcode_lintcode/dp/maximum_subarray.md)
 * [Math & Bit Manipulation]()
     * [Gray Code](part_ii_leetcode_lintcode/math_and_bit_manipulation/gray_code.md)
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
