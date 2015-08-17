@@ -3,7 +3,7 @@
 [Princeton Slides](https://www.cs.princeton.edu/courses/archive/spr10/cos226/lectures/06-23Quicksort-2x2.pdf)
 
 ## Note
-The algorithm can choose the kth smallest/largest element from an unorder array in O(N) time. 
+The algorithm can choose the kth smallest/largest element from an unorder array in O(N) time. It uses the same parition functionn as quick sort, and if the inddex returned is k, then the number is found.
 
 ### Code
 #### Java
