@@ -34,6 +34,7 @@
     * [Maximum Subarray Difference](part_ii_leetcode_lintcode/greedy/maximum_subarray_difference.md)
 * [String]()
     * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
+    * [Length of Last Word](part_ii_leetcode_lintcode/string/length_of_last_word.md)
 * [Sorting]()
     * [Kth Largest Element](part_ii_leetcode_lintcode/sort/kth_largest_element.md)
     * [Merge Intervals](part_ii_leetcode_lintcode/sort/merge_intervals.md)
