@@ -51,7 +51,7 @@ public class QuickSort {
 ```
 
 ## 2. 3-way QuickSort 
-3-way QuickSort improve QuickSort when there are lots of duplicate values in the array. 
+3-way QuickSort performs much bettern than QuickSort when there are lots of duplicate values in the array. 
 
 ### Code
 #### Java
