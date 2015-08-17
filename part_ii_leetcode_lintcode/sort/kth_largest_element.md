@@ -38,7 +38,7 @@ class Solution {
 
 ## Method 2: Quick Select
 ### Analysis
-Use [QuickSelect](../../part_i_basics/sort/quick_select).
+Use [QuickSelect](../../part_i_basics/sort/quick_select.md).
 
 ### Complexity
 Time: O(N)
