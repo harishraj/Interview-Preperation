@@ -31,6 +31,7 @@
     * [Maximum Subarray](part_ii_leetcode_lintcode/greedy/maximum_subarray.md)
     * [Maximum Subarray II](part_ii_leetcode_lintcode/greedy/maximum_subarray_ii.md)
     * [Maximum Subarray Difference](part_ii_leetcode_lintcode/greedy/maximum_subarray_difference.md)
+    * [Interleave String](part_ii_leetcode_lintcode/greedy/interleave_string.md)
 * [String]()
     * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
 * [Sorting]()
