@@ -13,6 +13,9 @@
 ### Analysis
 For each element in the array, get the max and min value in the left and right side. Then it is easy to find a split point that maximize the difference. 
 
+### Related Question
+1. [Maximum Subarray II](maximum_subarray_ii.md)
+
 ### Complexity
 Time: O(N)
 
