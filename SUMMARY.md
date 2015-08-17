@@ -9,6 +9,8 @@
     * [Java Volatile Keyword](part_i_basics/java/java_volatile_keyword.md)
 * [Part II - Leetcode/Lintcode](part_ii_leetcode_lintcode/README.md)
 * [Binary Tree Traversal](part_ii_leetcode_lintcode/binary_tree_traversal/README.md)
+* [Binary Search]()
+    * [Binary Search](part_ii_leetcode_lintcode/binary_search/binary_search.md)
 * [Divide and Conquer]()
     * [Print Numbers by Recursion](part_ii_leetcode_lintcode/divide_and_conquer/print_numbers_by_recursion.md)
     * [Coins In a Line](part_ii_leetcode_lintcode/divide_and_conquer/coins_in_a_line.md)
