@@ -13,8 +13,10 @@
 >
 > The subarray should contain at least one number
 
-## Method 1: DP
+## Method 1: Greedy
 ### Analysis
+This is an extension on [Maximum Subarray](maximum_subarray.md).
+
 Consider each point as potential split point for two subarray. First scan from left to right and get the maximum sum of the first [0...i] numbers. Then scan from right to left and get the maximum sum of the last [i...n] numbers. If we consider each point as a split point, then `maxSum = max(left[i] + right[i + 1]), for all possible i`.
 
 ### Complexity
