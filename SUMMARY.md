@@ -27,7 +27,7 @@
 * [Dynamic Programming]()
     * [Longest Increasing Continuous subsequence](part_ii_leetcode_lintcode/dp/longest_increasing_continuous_subsequence.md)
     * [Maximum Subarray III](part_ii_leetcode_lintcode/dp/maximum_subarray_iii.md)
-    * [Interleave String](part_ii_leetcode_lintcode/greedy/interleave_string.md)
+    * [Interleave String](part_ii_leetcode_lintcode/dp/interleave_string.md)
 * [Greedy]()
     * [Maximum Subarray](part_ii_leetcode_lintcode/greedy/maximum_subarray.md)
     * [Maximum Subarray II](part_ii_leetcode_lintcode/greedy/maximum_subarray_ii.md)
