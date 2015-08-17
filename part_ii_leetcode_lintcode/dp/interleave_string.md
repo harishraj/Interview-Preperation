@@ -65,6 +65,7 @@ Space: O(len1 * len2)
 
 ### Code
 #### Java Version 1
+```java
 public class Solution {
   public boolean isInterleave(String s1, String s2, String s3) {
     if (s1 == null || s2 == null || s3 == null) {
@@ -97,6 +98,7 @@ public class Solution {
     return isValid[len1][len2];
   }
 }
+```
 
 #### Java Version 2 (Less code)
 ```java
