@@ -29,6 +29,8 @@
     * [Maximum Subarray](part_ii_leetcode_lintcode/dp/maximum_subarray.md)
     * [Maximum Subarray II](part_ii_leetcode_lintcode/dp/maximum_subarray_ii.md)
     * [Maximum Subarray III](part_ii_leetcode_lintcode/dp/maximum_subarray_iii.md)
+* [String]()
+    * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
 * [Sorting]()
     * [Kth Largest Element](part_ii_leetcode_lintcode/sort/kth_largest_element.md)
 * [Math & Bit Manipulation]()
