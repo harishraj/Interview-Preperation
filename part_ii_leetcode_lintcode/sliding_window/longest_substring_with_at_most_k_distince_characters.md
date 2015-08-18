@@ -17,7 +17,53 @@ Time: O(N)
 Space: O(k)
 
 ### Code
-#### Java
+#### Java Version 1
+```java
+public class Solution {
+  private Map<Character, Integer> counter;
+
+  public int lengthOfLongestSubstringKDistinct(String s, int k) {
+    if (s == null) {
+      return 0;
+    }
+    int maxLen = 0;
+    int start = 0;
+    counter = new HashMap<>();
+    int distinctCount = 0;
+    for (int end = 0; end < s.length(); end++) {
+      distinctCount = incCounter(s.charAt(end), distinctCount);
+      while (distinctCount > k) {
+        distinctCount = decCounter(s.charAt(start++), distinctCount);
+      }
+      maxLen = Math.max(maxLen, end - start + 1);
+    }
+    return maxLen;
+  }
+
+  private int incCounter(char c, int distinctCount) {
+    if (counter.containsKey(c)) {
+      counter.put(c, counter.get(c) + 1);
+    } else {
+      counter.put(c, 1);
+      distinctCount++;
+    }
+    return distinctCount;
+  }
+
+  private int decCounter(char c, int distinctCount) {
+    int count = counter.get(c) - 1;
+    if (count > 0) {
+      counter.put(c, count);
+    } else {
+      counter.remove(c);
+      distinctCount--;
+    }
+    return distinctCount;
+  }
+}
+```
+
+#### Java Version 2
 ```java
 public class Solution {
   private Map<Character, Integer> counter;
