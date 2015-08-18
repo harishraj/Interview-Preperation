@@ -19,6 +19,7 @@ Space: O(N)
 
 ### Code
 #### Java Version 1
+```java
 public class Solution {
   private static final int BASE = 2;
 
@@ -39,6 +40,7 @@ public class Solution {
     return sb.reverse().toString();
   }
 }
+```
 
 #### Java Version 2
 ```java
