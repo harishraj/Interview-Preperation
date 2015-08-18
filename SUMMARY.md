@@ -37,6 +37,7 @@
     * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
     * [Length of Last Word](part_ii_leetcode_lintcode/string/length_of_last_word.md)
     * [Valid Number](part_ii_leetcode_lintcode/string/valid_number.md)
+    * [Valid Palindrome](part_ii_leetcode_lintcode/string/valid_palindrome.md)
 * [Sorting]()
     * [Kth Largest Element](part_ii_leetcode_lintcode/sort/kth_largest_element.md)
     * [Merge Intervals](part_ii_leetcode_lintcode/sort/merge_intervals.md)
