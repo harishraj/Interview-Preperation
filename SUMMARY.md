@@ -9,51 +9,68 @@
     * [Java Volatile Keyword](part_i_basics/java/java_volatile_keyword.md)
 * [Part II - Leetcode/Lintcode](part_ii_leetcode_lintcode/README.md)
 * [Binary Tree Traversal](part_ii_leetcode_lintcode/binary_tree_traversal/README.md)
+
 * [Binary Search]()
     * [Binary Search](part_ii_leetcode_lintcode/binary_search/binary_search.md)
+
 * [Divide and Conquer]()
     * [Print Numbers by Recursion](part_ii_leetcode_lintcode/divide_and_conquer/print_numbers_by_recursion.md)
     * [Coins In a Line](part_ii_leetcode_lintcode/divide_and_conquer/coins_in_a_line.md)
     * [Subtree](part_ii_leetcode_lintcode/divide_and_conquer/subtree.md)
+
 * [Stack]()
     * [Evaluate Reverse Polish Notation](part_ii_leetcode_lintcode/stack/evaluate_reverse_polish_notation.md)
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
     * [Largest Rectangle in Histogram](part_ii_leetcode_lintcode/stack/largest_rectangle_in_histogram.md)
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
+
 * [Seraching]()
     * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
+
+* [Sliding Window]()
+    * [Longest Substring with At Most K Distinct Characters](part_ii_leetcode_lintcode/sliding_window/longest_substring_with_at_most_k_distince_characters.md)
+
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
+
 * [Dynamic Programming]()
     * [Longest Increasing Continuous subsequence](part_ii_leetcode_lintcode/dp/longest_increasing_continuous_subsequence.md)
     * [Maximum Subarray III](part_ii_leetcode_lintcode/dp/maximum_subarray_iii.md)
     * [Interleave String](part_ii_leetcode_lintcode/dp/interleave_string.md)
+
 * [Greedy]()
     * [Maximum Subarray](part_ii_leetcode_lintcode/greedy/maximum_subarray.md)
     * [Maximum Subarray II](part_ii_leetcode_lintcode/greedy/maximum_subarray_ii.md)
     * [Maximum Subarray Difference](part_ii_leetcode_lintcode/greedy/maximum_subarray_difference.md)
+
 * [String]()
     * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
     * [Length of Last Word](part_ii_leetcode_lintcode/string/length_of_last_word.md)
     * [Valid Number](part_ii_leetcode_lintcode/string/valid_number.md)
     * [Valid Palindrome](part_ii_leetcode_lintcode/string/valid_palindrome.md)
+
 * [Array]()
     * [Plus One](part_ii_leetcode_lintcode/array/plus_one.md)
+
 * [Sorting]()
     * [Kth Largest Element](part_ii_leetcode_lintcode/sort/kth_largest_element.md)
     * [Merge Intervals](part_ii_leetcode_lintcode/sort/merge_intervals.md)
+
 * [Math & Bit Manipulation]()
     * [Gray Code](part_ii_leetcode_lintcode/math_and_bit_manipulation/gray_code.md)
     * [Digit Counts](part_ii_leetcode_lintcode/math_and_bit_manipulation/digit_counts.md)
     * [Reverse Integer](part_ii_leetcode_lintcode/math_and_bit_manipulation/reverse_integer.md)
     * [Divide Two Integers](part_ii_leetcode_lintcode/math_and_bit_manipulation/divide_two_integers.md)
+
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
     * [Find the Weak Connected Component in the Directed Graph](part_ii_leetcode_lintcode/union_find/find_the_weak_connected_component_in_the_directed_graph.md)
     * [Number of Islands II](part_ii_leetcode_lintcode/union_find/number_of_islands_ii.md)
+
 * [Class Design]()
     * [Implement Trie](part_ii_leetcode_lintcode/class_design/implement_trie.md)
     * [Implement Queue by Two Stacks](part_ii_leetcode_lintcode/class_design/implement_queue_by_two_stacks.md)
     * [Min Stack](part_ii_leetcode_lintcode/class_design/min_stack.md)
+
 * [Design Pattern]()
     * [Singleton](part_ii_leetcode_lintcode/design_pattern/singleton.md)
