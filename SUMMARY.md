@@ -50,6 +50,7 @@
     * [Number of Islands II](part_ii_leetcode_lintcode/union_find/number_of_islands_ii.md)
     * [Digit Counts](part_ii_leetcode_lintcode/math_and_bit_manipulation/digit_counts.md)
     * [Reverse Integer](part_ii_leetcode_lintcode/math_and_bit_manipulation/reverse_integer.md)
+    * [Divide Two Integers](part_ii_leetcode_lintcode/math_and_bit_manipulation/divide_two_integers.md)
 * [Class Design]()
     * [Implement Trie](part_ii_leetcode_lintcode/class_design/implement_trie.md)
     * [Implement Queue by Two Stacks](part_ii_leetcode_lintcode/class_design/implement_queue_by_two_stacks.md)
