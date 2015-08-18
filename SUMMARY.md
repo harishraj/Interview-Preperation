@@ -25,6 +25,8 @@
     * [Longest Substring with At Most K Distinct Characters](part_ii_leetcode_lintcode/sliding_window/longest_substring_with_at_most_k_distince_characters.md)
     * [Longest Substring Without Repeating Characters](part_ii_leetcode_lintcode/sliding_window/longest_substring_without_repeating_characters.md)
     * [Minimum Window Substring](part_ii_leetcode_lintcode/sliding_window/minimum_window_substring.md)
+* [Two Pointers]()
+    * [The Smallest Difference](part_ii_leetcode_lintcode/two_pointers/the_smallest_difference.md)
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
