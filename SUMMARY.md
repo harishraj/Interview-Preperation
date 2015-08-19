@@ -33,6 +33,8 @@
     * [Subtree](part_ii_leetcode_lintcode/divide_and_conquer/subtree.md)
 * [Segment Tree]()
     * [Segment Tree Build](part_ii_leetcode_lintcode/segment_tree/segment_tree_build.md)
+    * [Segment Tree Query](part_ii_leetcode_lintcode/segment_tree/segment_tree_query.md)
+    * [Segment Tree Query II](part_ii_leetcode_lintcode/segment_tree/segment_tree_query_ii.md)
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
