@@ -19,6 +19,7 @@
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
     * [Largest Rectangle in Histogram](part_ii_leetcode_lintcode/stack/largest_rectangle_in_histogram.md)
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
+    * [Expression Evaluation](part_ii_leetcode_lintcode/stack/expression_evaluation.md)
 * [Seraching]()
     * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
 * [Sliding Window]()
