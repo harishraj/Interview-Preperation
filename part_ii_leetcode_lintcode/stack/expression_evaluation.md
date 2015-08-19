@@ -49,10 +49,10 @@ public class Solution {
           numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
         }
         opStack.pop();  // pop out "("
-      } else if (!opStack.isEmpty() && hasHigherPriority(opStack.peek(), token)) {
-        numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
-        opStack.push(token);
       } else {
+        while (!opStack.isEmpty() && hasHigherPriority(opStack.peek(), token)) {
+          numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
+        }
         opStack.push(token);
       }
     }
