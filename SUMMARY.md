@@ -48,6 +48,7 @@
     * [Valid Number](part_ii_leetcode_lintcode/string/valid_number.md)
     * [Valid Palindrome](part_ii_leetcode_lintcode/string/valid_palindrome.md)
     * [Add Binary](part_ii_leetcode_lintcode/string/add_binary.md)
+    * [Two Strings Are Anagrams](part_ii_leetcode_lintcode/string/two_strings_are_anagrams.md)
 * [Array]()
     * [Plus One](part_ii_leetcode_lintcode/array/plus_one.md)
 * [LinkedList]()
