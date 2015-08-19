@@ -40,7 +40,7 @@ public class Solution {
     Stack<Integer> numStack = new Stack<>();
     Stack<String> opStack = new Stack<>();
     for (String token : expression) {
-      if (Character.isDigit(token.charAt(0))) {
+      if (isNumber(token)) {
         numStack.push(Integer.valueOf(token));
       } else if (token.equals("(")) {
         opStack.push(token);
@@ -50,7 +50,7 @@ public class Solution {
         }
         opStack.pop();  // pop out "("
       } else {
-        while (!opStack.isEmpty() && hasHigherPriority(opStack.peek(), token)) {
+        while (!opStack.isEmpty() && getPriority(opStack.peek()) >= getPriority(token)) {
           numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
         }
         opStack.push(token);
@@ -62,14 +62,18 @@ public class Solution {
     return numStack.isEmpty() ? 0 : numStack.pop();
   }
 
-  // whether op1 has higher priority
-  private boolean hasHigherPriority(String op1, String op2) {
-    if (op1.equals("(")) {
-      return false;
-    } else if (op1.equals("*") || op1.equals("/") || op2.equals("+") || op2.equals("-")) {
-      return true;
+  private boolean isNumber(String token) {
+    return Character.isDigit(token.charAt(0));
+  }
+
+  private int getPriority(String op) {
+    if (op.equals("(")) {
+      return 0;
+    } else if (op.equals("+") || op.equals("-")) {
+      return 1;
+    } else {
+      return 2;
     }
-    return false;
   }
 
   private int compute(int num2, int num1, String token) {

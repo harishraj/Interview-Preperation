@@ -21,6 +21,7 @@
     * [Simplify Path](part_ii_leetcode_lintcode/stack/simplify_path.md)
     * [Expression Evaluation](part_ii_leetcode_lintcode/stack/expression_evaluation.md)
     * [Expression Tree Build](part_ii_leetcode_lintcode/stack/expression_tree_build.md)
+    * [Convert Expression to Reverse Polish Notation](part_ii_leetcode_lintcode/stack/convert_expression_to_reverse_polish_notation.md)
 * [Seraching]()
     * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
 * [Sliding Window]()

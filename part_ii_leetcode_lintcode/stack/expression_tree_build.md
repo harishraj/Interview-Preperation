@@ -52,7 +52,7 @@ public class Solution {
     Stack<ExpressionTreeNode> numStack = new Stack<>();
     Stack<String> opStack = new Stack<>();
     for (String token : expression) {
-      if (Character.isDigit(token.charAt(0))) {
+      if (isNumber(token)) {
         numStack.push(new ExpressionTreeNode(token));
       } else if (token.equals("(")) {
         opStack.push(token);
@@ -62,7 +62,7 @@ public class Solution {
         }
         opStack.pop();
       } else {
-        while (!opStack.isEmpty() && hasHigherPriority(opStack.peek(), token)) {
+        while (!opStack.isEmpty() && getPriority(opStack.peek()) >= getPriority(token)) {
           numStack.push(buildNode(numStack.pop(), numStack.pop(), opStack.pop()));
         }
         opStack.push(token);
@@ -74,14 +74,18 @@ public class Solution {
     return numStack.isEmpty() ? null : numStack.pop();
   }
 
-  // whether the previous operator has higher priority
-  private boolean hasHigherPriority(String op1, String op2) {
-    if (op1.equals("(")) {
-      return false;
-    } else if (op1.equals("*") || op1.equals("/") || op2.equals("+") || op2.equals("-")) {
-      return true;
+  private boolean isNumber(String token) {
+    return Character.isDigit(token.charAt(0));
+  }
+
+  private int getPriority(String op) {
+    if (op.equals("(")) {
+      return 0;
+    } else if (op.equals("+") || op.equals("-")) {
+      return 1;
+    } else {
+      return 2;
     }
-    return false;
   }
 
   private ExpressionTreeNode buildNode(ExpressionTreeNode node2, ExpressionTreeNode node1, String op) {
