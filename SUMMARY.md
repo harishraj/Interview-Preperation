@@ -34,6 +34,7 @@
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
+    * [Sliding Window Median](part_ii_leetcode_lintcode/heap/sliding_window_median.md)
 * [Dynamic Programming]()
     * [Longest Increasing Continuous subsequence](part_ii_leetcode_lintcode/dp/longest_increasing_continuous_subsequence.md)
     * [Maximum Subarray III](part_ii_leetcode_lintcode/dp/maximum_subarray_iii.md)
