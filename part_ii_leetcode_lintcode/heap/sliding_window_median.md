@@ -24,7 +24,7 @@ Use a max heap to store elements smaller or equal to median, and use a min heap 
 It is important to balance two heaps. The number of elements in two heaps should be equal, or max heap should has one more element if k is odd.
 
 ### Complexity
-Time: O(Nlgk)
+Time: O(Nlgk), it is actually O(N*k*lgk), since Java PriorityQueue.remove(Object o), needs to do a linear scan to find the element. It is possible to implement heap our self and use a hashmap to avoid linear scanning.
 
 Space: O(k)
 
