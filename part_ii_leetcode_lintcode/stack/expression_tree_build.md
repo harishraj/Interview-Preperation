@@ -58,22 +58,23 @@ public class Solution {
         opStack.push(token);
       } else if (token.equals(")")) {
         while (!opStack.peek().equals("(")) {
-          numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
+          numStack.push(buildNode(numStack.pop(), numStack.pop(), opStack.pop()));
         }
         opStack.pop();
       } else {
         while (!opStack.isEmpty() && hasHigherPriority(opStack.peek(), token)) {
-          numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
+          numStack.push(buildNode(numStack.pop(), numStack.pop(), opStack.pop()));
         }
         opStack.push(token);
       }
     }
     while (!opStack.isEmpty()) {
-      numStack.push(compute(numStack.pop(), numStack.pop(), opStack.pop()));
+      numStack.push(buildNode(numStack.pop(), numStack.pop(), opStack.pop()));
     }
     return numStack.isEmpty() ? null : numStack.pop();
   }
 
+  // whether the previous operator has higher priority
   private boolean hasHigherPriority(String op1, String op2) {
     if (op1.equals("(")) {
       return false;
@@ -83,7 +84,7 @@ public class Solution {
     return false;
   }
 
-  private ExpressionTreeNode compute(ExpressionTreeNode node2, ExpressionTreeNode node1, String op) {
+  private ExpressionTreeNode buildNode(ExpressionTreeNode node2, ExpressionTreeNode node1, String op) {
     ExpressionTreeNode root = new ExpressionTreeNode(op);
     root.left = node1;
     root.right = node2;
