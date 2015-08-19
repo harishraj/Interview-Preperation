@@ -21,6 +21,11 @@
 >
 > query(0, 2), return 2
 
+### Complexity
+Time: O(h)
+
+Space: O(h)
+
 ### Code
 #### Java
 ```java

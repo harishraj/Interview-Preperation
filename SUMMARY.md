@@ -35,6 +35,7 @@
     * [Segment Tree Build](part_ii_leetcode_lintcode/segment_tree/segment_tree_build.md)
     * [Segment Tree Query](part_ii_leetcode_lintcode/segment_tree/segment_tree_query.md)
     * [Segment Tree Query II](part_ii_leetcode_lintcode/segment_tree/segment_tree_query_ii.md)
+    * [Segment Tree Modify](part_ii_leetcode_lintcode/segment_tree/segment_tree_modify.md)
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)

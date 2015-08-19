@@ -37,6 +37,11 @@
 > * which of these intervals contain a given point
 > * which of these points are in a given interval
 
+### Complexity
+Time: O(n), at most 2n - 1 nodes
+
+Space: O(h), recursion depth
+
 ### Code
 #### Java
 ```java
