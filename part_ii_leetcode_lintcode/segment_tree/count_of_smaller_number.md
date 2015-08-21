@@ -128,7 +128,7 @@ public class Solution {
       return ;
     } 
     if (root.start == num && root.end == num ) {
-      root.count += count;
+      root.count = count;
       return;
     }
     modifySegmentTree(root.left, num, count);
