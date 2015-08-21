@@ -40,6 +40,7 @@
     * [Count of Smaller Number Before Itself](part_ii_leetcode_lintcode/segment_tree/count_of_smaller_number_before_itself.md)
     * [Interval Sum](part_ii_leetcode_lintcode/segment_tree/interval_sum.md)
     * [Interval Sum II](part_ii_leetcode_lintcode/segment_tree/interval_sum_ii.md)
+    * [Interval Minimum Number](part_ii_leetcode_lintcode/segment_tree/interval_minimum_number.md)
 * [Heap]()
     * [Ugly Number](part_ii_leetcode_lintcode/heap/ugly_number.md)
     * [Kth Smallest Number in Sorted Matrix](part_ii_leetcode_lintcode/heap/kth_smallest_number_in_sorted_matrix.md)
