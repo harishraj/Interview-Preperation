@@ -73,6 +73,7 @@
     * [Digit Counts](part_ii_leetcode_lintcode/math_and_bit_manipulation/digit_counts.md)
     * [Reverse Integer](part_ii_leetcode_lintcode/math_and_bit_manipulation/reverse_integer.md)
     * [Divide Two Integers](part_ii_leetcode_lintcode/math_and_bit_manipulation/divide_two_integers.md)
+    * [Permutation Index](part_ii_leetcode_lintcode/math_and_bit_manipulation/permutation_index.md)
 * [Union Find](part_ii_leetcode_lintcode/union_find/README.md)
     * [Find the Weak Connected Component in the Directed Graph](part_ii_leetcode_lintcode/union_find/find_the_weak_connected_component_in_the_directed_graph.md)
     * [Number of Islands II](part_ii_leetcode_lintcode/union_find/number_of_islands_ii.md)
