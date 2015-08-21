@@ -45,7 +45,7 @@ public class Solution {
     if (root == null || num > root.end || num < root.start) {
       return ;
     } 
-    if (root.start == num && root.end == num ) {
+    if (root.start == num && root.end == num) {
       root.count += count;
       return;
     }
