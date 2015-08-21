@@ -54,6 +54,7 @@
     * [Maximum Subarray](part_ii_leetcode_lintcode/greedy/maximum_subarray.md)
     * [Maximum Subarray II](part_ii_leetcode_lintcode/greedy/maximum_subarray_ii.md)
     * [Maximum Subarray Difference](part_ii_leetcode_lintcode/greedy/maximum_subarray_difference.md)
+    * [Delete Digits](part_ii_leetcode_lintcode/greedy/delete_digits.md)
 * [String]()
     * [strStr](part_ii_leetcode_lintcode/string/str_str.md)
     * [Length of Last Word](part_ii_leetcode_lintcode/string/length_of_last_word.md)
