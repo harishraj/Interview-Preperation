@@ -22,6 +22,8 @@
     * [Convert Expression to Polish Notation](part_ii_leetcode_lintcode/stack/convert_expression_to_polish_notation.md)
 * [Hash Table]()
     * [Group Anagrams](part_ii_leetcode_lintcode/hash_table/group_anagrams.md)
+* [Hash Set]()
+    * [Happy Number](part_ii_leetcode_lintcode/hash_set/happy_number.md)
 * [Seraching]()
     * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
 * [Sliding Window]()
