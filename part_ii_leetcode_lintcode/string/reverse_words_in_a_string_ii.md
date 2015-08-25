@@ -14,6 +14,10 @@
 > 
 > Do it **in-place** without allocating extra space?
 
+### Related Question
+1. [Rotate String](rotate_string.md)
+2. [Rotate Array](../array/rotate_array.md)
+
 ### Analysis
 1. Reverse the whole string
 2. Reverse each word 

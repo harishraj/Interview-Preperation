@@ -11,6 +11,10 @@
 >
 > Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
 
+### Related Question
+1. [Rotate String](../string/rotate_string.md)
+2. [Reverse Words in a String II](../string/reverse_words_in_a_string_ii.md)
+
 ### Analysis
 Can use the algorithm shown in [here](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/01.01.md).
 
