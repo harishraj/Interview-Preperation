@@ -24,6 +24,8 @@
 
 ## Method 1: BFS
 ### Analysis
+It is worth noting that if there is a **cycle** in the graph, then there is no topogical sorting for the graph.
+
 1. Get indegree of each node. 
 2. Start from each indegree node, and remove it from the graph, update all its neighbors indegree by decreasing 1. 
 3. Continue removing zero-indegree node from the graph until done.
