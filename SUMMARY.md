@@ -25,6 +25,7 @@
 * [Hash Set]()
     * [Happy Number](part_ii_leetcode_lintcode/hash_set/happy_number.md)
 * [Searching]()
+    * [Topological Sorting](part_ii_leetcode_lintcode/searching/topological_sorting.md)
     * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
     * [Route Between Two Nodes in Graph](part_ii_leetcode_lintcode/searching/route_between_two_nodes_in_graph.md)
 * [Sliding Window]()
