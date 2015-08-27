@@ -75,6 +75,7 @@
     * [Rotate String](part_ii_leetcode_lintcode/string/rotate_string.md)
     * [Reverse Words in a String](part_ii_leetcode_lintcode/string/reverse_words_in_a_string.md)
     * [Reverse Words in a String II](part_ii_leetcode_lintcode/string/reverse_words_in_a_string_ii.md)
+    * [Reverse Words in a String III](part_ii_leetcode_lintcode/string/reverse_words_in_a_string_iii.md)
 * [Array]()
     * [Plus One](part_ii_leetcode_lintcode/array/plus_one.md)
     * [Rotate Array](part_ii_leetcode_lintcode/array/rotate_array.md)
