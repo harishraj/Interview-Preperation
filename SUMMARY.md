@@ -42,6 +42,7 @@
     * [Print Numbers by Recursion](part_ii_leetcode_lintcode/divide_and_conquer/print_numbers_by_recursion.md)
     * [Coins In a Line](part_ii_leetcode_lintcode/divide_and_conquer/coins_in_a_line.md)
     * [Subtree](part_ii_leetcode_lintcode/divide_and_conquer/subtree.md)
+    * [Binary Tree Upside Down](part_ii_leetcode_lintcode/divide_and_conquer/binary_tree_upside_down.md)
 * [Segment Tree]()
     * [Segment Tree Build](part_ii_leetcode_lintcode/segment_tree/segment_tree_build.md)
     * [Segment Tree Query](part_ii_leetcode_lintcode/segment_tree/segment_tree_query.md)
