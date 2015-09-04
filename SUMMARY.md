@@ -13,6 +13,7 @@
     * [Contains Duplicate III](part_ii_leetcode_lintcode/binary_search_tree/contains_duplicate_iii.md)
 * [Binary Search]()
     * [Binary Search](part_ii_leetcode_lintcode/binary_search/binary_search.md)
+    * [Find Peak Element](part_ii_leetcode_lintcode/binary_search/find_peak_element.md)
 * [Stack]()
     * [Evaluate Reverse Polish Notation](part_ii_leetcode_lintcode/stack/evaluate_reverse_polish_notation.md)
     * [Valid Parenthese](part_ii_leetcode_lintcode/stack/valid_parenthese.md)
