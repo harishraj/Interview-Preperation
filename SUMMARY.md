@@ -9,6 +9,8 @@
     * [Java Volatile Keyword](part_i_basics/java/java_volatile_keyword.md)
 * [Part II - Leetcode/Lintcode](part_ii_leetcode_lintcode/README.md)
 * [Binary Tree Traversal](part_ii_leetcode_lintcode/binary_tree_traversal/README.md)
+* [Binary Search Tree]()
+    * [Contains Duplicate III](part_ii_leetcode_lintcode/binary_search_tree/contains_duplicate_iii.md)
 * [Binary Search]()
     * [Binary Search](part_ii_leetcode_lintcode/binary_search/binary_search.md)
 * [Stack]()
