@@ -76,6 +76,7 @@
     * [Valid Palindrome](part_ii_leetcode_lintcode/string/valid_palindrome.md)
     * [Add Binary](part_ii_leetcode_lintcode/string/add_binary.md)
     * [Two Strings Are Anagrams](part_ii_leetcode_lintcode/string/two_strings_are_anagrams.md)
+    * [Read N Characters Given Read4](part_ii_leetcode_lintcode/string/read_n_characters_given_read4.md)
     * [Roman to Integer](part_ii_leetcode_lintcode/string/roman_to_integer.md)
     * [Integer to Roman](part_ii_leetcode_lintcode/string/integer_to_roman.md)
     * [Rotate String](part_ii_leetcode_lintcode/string/rotate_string.md)
