@@ -24,6 +24,7 @@
     * [Group Anagrams](part_ii_leetcode_lintcode/hash_table/group_anagrams.md)
 * [Hash Set]()
     * [Happy Number](part_ii_leetcode_lintcode/hash_set/happy_number.md)
+    * [Contains Duplicate](part_ii_leetcode_lintcode/hash_set/contains_duplicate.md)
 * [Searching]()
     * [Topological Sorting](part_ii_leetcode_lintcode/searching/topological_sorting.md)
     * [Longest Increasing Continuous subsequence II](part_ii_leetcode_lintcode/searching/longest_increasing_continuous_subsequence_ii.md)
