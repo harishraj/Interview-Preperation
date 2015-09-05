@@ -36,6 +36,7 @@
     * [Route Between Two Nodes in Graph](part_ii_leetcode_lintcode/searching/route_between_two_nodes_in_graph.md)
     * [K Sum II](part_ii_leetcode_lintcode/searching/k_sum_ii.md)
     * [N Queens](part_ii_leetcode_lintcode/searching/n_queens.md)
+    * [N Queens II](part_ii_leetcode_lintcode/searching/n_queens_ii.md)
 * [Sliding Window]()
     * [Longest Substring with At Most K Distinct Characters](part_ii_leetcode_lintcode/sliding_window/longest_substring_with_at_most_k_distince_characters.md)
     * [Longest Substring Without Repeating Characters](part_ii_leetcode_lintcode/sliding_window/longest_substring_without_repeating_characters.md)
