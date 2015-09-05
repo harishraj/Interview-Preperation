@@ -26,7 +26,7 @@
     * [Convert Expression to Polish Notation](part_ii_leetcode_lintcode/stack/convert_expression_to_polish_notation.md)
 * [Hash Table]()
     * [Group Anagrams](part_ii_leetcode_lintcode/hash_table/group_anagrams.md)
-    * [Shortest Word Distance II](part_ii_leetcode_lintcode/array/shortest_word_distance_ii.md)
+    * [Shortest Word Distance II](part_ii_leetcode_lintcode/hash_table/shortest_word_distance_ii.md)
 * [Hash Set]()
     * [Happy Number](part_ii_leetcode_lintcode/hash_set/happy_number.md)
     * [Contains Duplicate](part_ii_leetcode_lintcode/hash_set/contains_duplicate.md)
