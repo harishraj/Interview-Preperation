@@ -93,6 +93,7 @@
 * [Array]()
     * [Plus One](part_ii_leetcode_lintcode/array/plus_one.md)
     * [Rotate Array](part_ii_leetcode_lintcode/array/rotate_array.md)
+    * [Shortest Word Distance](part_ii_leetcode_lintcode/array/shortest_word_distance.md)
 * [LinkedList]()
     * [Add Two Numbers](part_ii_leetcode_lintcode/linked_list/add_two_numbers.md)
 * [Sorting]()
