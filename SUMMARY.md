@@ -70,6 +70,7 @@
     * [Maximum Subarray III](part_ii_leetcode_lintcode/dp/maximum_subarray_iii.md)
     * [Interleave String](part_ii_leetcode_lintcode/dp/interleave_string.md)
     * [Ugly Number II](part_ii_leetcode_lintcode/dp/ugly_number_ii.md)
+    * [Paint House](part_ii_leetcode_lintcode/dp/paint_house.md)
 * [Greedy]()
     * [Maximum Subarray](part_ii_leetcode_lintcode/greedy/maximum_subarray.md)
     * [Maximum Subarray II](part_ii_leetcode_lintcode/greedy/maximum_subarray_ii.md)
