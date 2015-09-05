@@ -1,6 +1,7 @@
 # Find Peak Element
 ### Source
 1. [leetcode](https://leetcode.com/problems/find-peak-element/)
+2. [lintcode](http://www.lintcode.com/en/problem/find-peak-element/)
 
 > A peak element is an element that is greater than its neighbors.
 >
