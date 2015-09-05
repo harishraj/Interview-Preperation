@@ -95,6 +95,7 @@
 * [Sorting]()
     * [Kth Largest Element](part_ii_leetcode_lintcode/sort/kth_largest_element.md)
     * [Merge Intervals](part_ii_leetcode_lintcode/sort/merge_intervals.md)
+    * [Sort Colors II](part_ii_leetcode_lintcode/sort/sort_colors_ii.md)
 * [Math & Bit Manipulation]()
     * [Gray Code](part_ii_leetcode_lintcode/math_and_bit_manipulation/gray_code.md)
     * [Digit Counts](part_ii_leetcode_lintcode/math_and_bit_manipulation/digit_counts.md)
