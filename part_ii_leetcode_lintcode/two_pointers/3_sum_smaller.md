@@ -13,7 +13,7 @@
 >
 > Follow up:
 >
-> Could you solve it in O(n2) runtime?
+> Could you solve it in O(n^2) runtime?
 
 ### Analysis
 Almost the same as [3 Sum](3_sum.md). Although we need to find a triple i, j, k with 0 <= i < j < k < n, we can actually sort the array, since the order of these three numbers doesn't matter at all. 

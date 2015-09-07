@@ -57,8 +57,7 @@ public class Solution {
           } else if (sum > 0) {
             end--;
           } else {
-            result.add((Arrays.asList(
-                    new Integer[]{numbers[i], numbers[start++], numbers[end--]})));
+            result.add(Arrays.asList(numbers[i], numbers[start++], numbers[end--]));
           }
         }
       }
