@@ -1,4 +1,4 @@
-# Three Sum
+# 3 Sum
 ### Source
 1. [lintcode](http://www.lintcode.com/en/problem/3-sum/)
 2. [leetcode](https://leetcode.com/problems/3sum/)

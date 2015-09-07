@@ -50,6 +50,7 @@
     * [Sort Colors](part_ii_leetcode_lintcode/two_pointers/sort_colors.md)
     * [Two Sum II](part_ii_leetcode_lintcode/two_pointers/two_sum_ii.md)
     * [3 Sum](part_ii_leetcode_lintcode/two_pointers/3_sum.md)
+    * [3 Sum Closet](part_ii_leetcode_lintcode/two_pointers/3_sum_closet.md)
 * [Divide and Conquer]()
     * [Print Numbers by Recursion](part_ii_leetcode_lintcode/divide_and_conquer/print_numbers_by_recursion.md)
     * [Coins In a Line](part_ii_leetcode_lintcode/divide_and_conquer/coins_in_a_line.md)
