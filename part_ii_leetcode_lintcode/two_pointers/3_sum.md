@@ -23,7 +23,7 @@ We should first sort the array, and then we iterate the first number, and set on
 But we should be careful to deal with duplicate result. If there are duplicate number, we can skip them directly. 
 
 ### Complexity
-Time: O(N^2)
+Time: O(n^2)
 
 Space: O(1)
 
@@ -42,7 +42,6 @@ public class Solution {
       if (i > 0 && numbers[i] == numbers[i - 1]) {  /* avoid duplicates */
         continue;
       }
-      int target = -numbers[i];
       int start = i + 1;
       int end = len - 1;
       while (start < end) {
@@ -52,10 +51,10 @@ public class Solution {
         } else if (end < len - 1 && numbers[end] == numbers[end + 1]) {
           end--;
         } else {
-          int sum = numbers[start] + numbers[end];
-          if (sum < target) {
+          int sum = numbers[i] + numbers[start] + numbers[end];  /* may overflow */
+          if (sum < 0) {
             start++;
-          } else if (sum > target) {
+          } else if (sum > 0) {
             end--;
           } else {
             result.add((Arrays.asList(
