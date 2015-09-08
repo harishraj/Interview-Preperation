@@ -16,7 +16,7 @@
 > return [(1,1), (2,2)]
 
 ### Analysis
-The same idea as [Subarray Sum](subarray_sum.d).
+The same idea as [Subarray Sum](subarray_sum.md).
 
 ### Complexity
 Time: O(m^2 * n)
