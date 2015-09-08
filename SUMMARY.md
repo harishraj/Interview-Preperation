@@ -31,6 +31,7 @@
     * [Two Sum III](part_ii_leetcode_lintcode/hash_table/two_sum_iii.md)
     * [Subarray Sum](part_ii_leetcode_lintcode/hash_table/subarray_sum.md)
     * [Subarray Sum To Target Value](part_ii_leetcode_lintcode/hash_table/subarray_sum_to_target_value.md)
+    * [Submatrix Sum](part_ii_leetcode_lintcode/hash_table/submatrix_sum.md)
 * [Hash Set]()
     * [Happy Number](part_ii_leetcode_lintcode/hash_set/happy_number.md)
     * [Contains Duplicate](part_ii_leetcode_lintcode/hash_set/contains_duplicate.md)
